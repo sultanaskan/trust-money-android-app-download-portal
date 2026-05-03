@@ -64,9 +64,12 @@
                 <p class="text-gray-900 font-bold text-sm">10M+</p>
                 <p>Downloads</p>
             </div>
+            <!-- Replace your third stat column with this -->
             <div class="flex-1">
-                <img src="https://www.gstatic.com/android/market_images/web/p3_age_3_64.png" class="h-4 mx-auto mb-1"
-                    alt="PEGI 3">
+                <div class="flex items-center justify-center mb-1">
+                    <span
+                        class="border border-gray-400 text-[10px] font-bold px-1 py-0 rounded-sm leading-none flex items-center justify-center h-4">3+</span>
+                </div>
                 <p>Rated for 3+</p>
             </div>
         </div>
@@ -141,6 +144,98 @@
                 <div class="flex items-center gap-2 text-gray-400">
                     <span class="text-xs">3</span>
                     <div class="flex-1 h-2 bg-gray-100 rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insert this section after the Rating Graphs and before the Footer -->
+
+    <section class="px-6 py-4">
+        <!-- Device Filters -->
+        <div class="flex gap-2 mb-6">
+            <button
+                class="flex items-center gap-2 px-4 py-1.5 rounded-full border border-emerald-100 bg-emerald-50 text-emerald-800 text-xs font-medium">
+                <i class="fa-solid fa-mobile-screen-button"></i> Mobile
+            </button>
+            <button
+                class="flex items-center gap-2 px-4 py-1.5 rounded-full border border-gray-300 text-gray-600 text-xs font-medium">
+                <i class="fa-solid fa-laptop"></i> Desktop
+            </button>
+            <button
+                class="flex items-center gap-2 px-4 py-1.5 rounded-full border border-gray-300 text-gray-600 text-xs font-medium">
+                <i class="fa-solid fa-tablet-screen-button"></i> Tablet
+            </button>
+        </div>
+
+        <!-- Review 1 -->
+        <div class="mb-8">
+            <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-3">
+                    <img src="https://ui-avatars.com/api/?name=Abdullah+Al+Mamun&background=random"
+                        class="w-8 h-8 rounded-full">
+                    <span class="text-sm font-medium text-gray-900">Abdullah Al Mamun</span>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical text-gray-400"></i>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+                <div class="flex text-[10px] google-green-text">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <span class="text-xs text-gray-500">20 May 2024</span>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">
+                খুবই চমৎকার সার্ভিস এবং অত্যন্ত নিরাপদ একটি অ্যাপ। টাকা জমা করার এবং সেন্ড করার প্রসেস খুবই সহজ। ধন্যবাদ
+                নেক মানি।
+            </p>
+            <div class="flex items-center gap-4 mt-3">
+                <span class="text-[11px] text-gray-500">25 people found this review helpful</span>
+                <div class="flex gap-2">
+                    <button class="px-3 py-1 text-xs border border-gray-300 rounded-full">Yes</button>
+                    <button class="px-3 py-1 text-xs border border-gray-300 rounded-full">No</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review 2 (With Developer Response) -->
+        <div class="mb-8">
+            <div class="flex items-center justify-between mb-2">
+                <div class="flex items-center gap-3">
+                    <img src="https://ui-avatars.com/api/?name=Mahmudul+Islam&background=random"
+                        class="w-8 h-8 rounded-full">
+                    <span class="text-sm font-medium text-gray-900">Mahmudul Islam</span>
+                </div>
+                <i class="fa-solid fa-ellipsis-vertical text-gray-400"></i>
+            </div>
+            <div class="flex items-center gap-2 mb-2">
+                <div class="flex text-[10px] google-green-text">
+                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                </div>
+                <span class="text-xs text-gray-500">15 May 2024</span>
+            </div>
+            <p class="text-sm text-gray-600 leading-relaxed">
+                ভালো সার্ভিস দেওয়ার জন্য ধন্যবাদ। পেমেন্ট গেটওয়ে টা আরও একটু ফাস্ট করলে ভালো হয়।
+            </p>
+
+            <!-- Developer Response Box -->
+            <div class="mt-4 bg-gray-50 p-4 rounded-xl border-l-4 border-emerald-600">
+                <div class="flex justify-between items-center mb-1">
+                    <span class="text-xs font-bold text-gray-900">Nec Money</span>
+                    <span class="text-[10px] text-gray-500">16 May 2024</span>
+                </div>
+                <p class="text-xs text-gray-600">
+                    আপনার মতামতের জন্য ধন্যবাদ! আমরা সবসময় চেষ্টা করি অ্যাপটিকে আরও উন্নত করতে। নেক্সট আপডেটে এটি ঠিক
+                    করা হবে।
+                </p>
+            </div>
+
+            <div class="flex items-center gap-4 mt-3">
+                <span class="text-[11px] text-gray-500">10 people found this review helpful</span>
+                <div class="flex gap-2">
+                    <button class="px-3 py-1 text-xs border border-gray-300 rounded-full">Yes</button>
+                    <button class="px-3 py-1 text-xs border border-gray-300 rounded-full">No</button>
                 </div>
             </div>
         </div>
